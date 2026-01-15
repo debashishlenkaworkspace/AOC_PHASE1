@@ -1,0 +1,12 @@
+@EndUserText.label: 'Service Defination For Processor Entity'
+define service ZATS_DL_SD_V2_PROCESSOR {
+  expose ZATS_DL_TRAVEL_PROCESSOR       as Travel;
+  expose ZATS_DL_BOOKING_PROCESSOR      as Booking;
+  expose ZATS_DL_BOOKINGSUPPL_PROCESSOR as BookingSuppl;
+  expose /DMO/I_Agency                  as Agency;
+  expose /DMO/I_Customer                as Customer;
+  expose /DMO/I_Carrier                 as Carrier;
+  expose /DMO/I_Connection              as Connection;
+  expose /DMO/I_Overall_Status_VH       as OverallStatus;
+  expose /DMO/I_Booking_Status_VH       as BookingStatus;
+}

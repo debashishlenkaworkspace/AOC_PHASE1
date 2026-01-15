@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Defination of Sales Cube Data'
+define service ZATS_DL_SD_SALESCUBE {
+  expose ZC_ATS_DL_SALESCUBE_O;
+}
